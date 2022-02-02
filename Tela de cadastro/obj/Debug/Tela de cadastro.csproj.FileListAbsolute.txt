@@ -1,0 +1,12 @@
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\Tela de cadastro.exe.config
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\Tela de cadastro.exe
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\Tela de cadastro.pdb
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela de cadastro.csproj.AssemblyReference.cache
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela_de_cadastro.Properties.Resources.resources
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela de cadastro.csproj.GenerateResource.cache
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela de cadastro.csproj.CoreCompileInputs.cache
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela de cadastro.exe
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela de cadastro.pdb
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela_de_cadastro.Cadastro.resources
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela_de_cadastro.FormLogin.resources
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela_de_cadastro.PesquisarFun.resources
