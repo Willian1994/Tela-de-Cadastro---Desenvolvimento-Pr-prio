@@ -29,6 +29,7 @@ namespace Tela_de_cadastro
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cadastro));
             this.txtNomeFunc = new System.Windows.Forms.TextBox();
             this.Ndf = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -72,6 +73,11 @@ namespace Tela_de_cadastro
             this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -81,7 +87,7 @@ namespace Tela_de_cadastro
             this.txtNomeFunc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNomeFunc.Location = new System.Drawing.Point(119, 145);
             this.txtNomeFunc.Name = "txtNomeFunc";
-            this.txtNomeFunc.Size = new System.Drawing.Size(570, 22);
+            this.txtNomeFunc.Size = new System.Drawing.Size(711, 22);
             this.txtNomeFunc.TabIndex = 0;
             // 
             // Ndf
@@ -107,7 +113,7 @@ namespace Tela_de_cadastro
             this.txtEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEnd.Location = new System.Drawing.Point(119, 202);
             this.txtEnd.Name = "txtEnd";
-            this.txtEnd.Size = new System.Drawing.Size(570, 22);
+            this.txtEnd.Size = new System.Drawing.Size(711, 22);
             this.txtEnd.TabIndex = 3;
             // 
             // textBox1
@@ -115,13 +121,13 @@ namespace Tela_de_cadastro
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(119, 257);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(483, 22);
+            this.textBox1.Size = new System.Drawing.Size(619, 22);
             this.textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(608, 257);
+            this.textBox2.Location = new System.Drawing.Point(744, 257);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(86, 22);
             this.textBox2.TabIndex = 5;
@@ -138,7 +144,7 @@ namespace Tela_de_cadastro
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(605, 234);
+            this.label3.Location = new System.Drawing.Point(741, 234);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 20);
             this.label3.TabIndex = 7;
@@ -165,13 +171,13 @@ namespace Tela_de_cadastro
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(375, 316);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(227, 22);
+            this.textBox3.Size = new System.Drawing.Size(335, 22);
             this.textBox3.TabIndex = 10;
             // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(608, 316);
+            this.textBox4.Location = new System.Drawing.Point(716, 314);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(86, 22);
             this.textBox4.TabIndex = 11;
@@ -188,7 +194,7 @@ namespace Tela_de_cadastro
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(605, 293);
+            this.label6.Location = new System.Drawing.Point(713, 291);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(89, 20);
             this.label6.TabIndex = 14;
@@ -197,7 +203,7 @@ namespace Tela_de_cadastro
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(697, 293);
+            this.label7.Location = new System.Drawing.Point(805, 293);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(89, 20);
             this.label7.TabIndex = 15;
@@ -253,7 +259,7 @@ namespace Tela_de_cadastro
             // label12
             // 
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(672, 341);
+            this.label12.Location = new System.Drawing.Point(780, 341);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(158, 16);
             this.label12.TabIndex = 28;
@@ -261,7 +267,7 @@ namespace Tela_de_cadastro
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(675, 363);
+            this.maskedTextBox2.Location = new System.Drawing.Point(783, 363);
             this.maskedTextBox2.Mask = "(99) 0000-0000";
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(210, 20);
@@ -270,7 +276,7 @@ namespace Tela_de_cadastro
             // label13
             // 
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(116, 390);
+            this.label13.Location = new System.Drawing.Point(780, 391);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(124, 20);
             this.label13.TabIndex = 31;
@@ -279,18 +285,18 @@ namespace Tela_de_cadastro
             // label14
             // 
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(322, 390);
+            this.label14.Location = new System.Drawing.Point(121, 390);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(124, 20);
+            this.label14.Size = new System.Drawing.Size(176, 20);
             this.label14.TabIndex = 32;
             this.label14.Text = "Estado Civil";
             // 
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(119, 413);
+            this.textBox9.Location = new System.Drawing.Point(783, 414);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(200, 22);
+            this.textBox9.Size = new System.Drawing.Size(210, 22);
             this.textBox9.TabIndex = 33;
             // 
             // comboBox2
@@ -300,15 +306,15 @@ namespace Tela_de_cadastro
             "Solteiro(a)",
             "Casado(a)",
             "Divorciado(a)"});
-            this.comboBox2.Location = new System.Drawing.Point(325, 414);
+            this.comboBox2.Location = new System.Drawing.Point(124, 414);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(234, 21);
+            this.comboBox2.Size = new System.Drawing.Size(286, 21);
             this.comboBox2.TabIndex = 34;
             // 
             // label15
             // 
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(562, 390);
+            this.label15.Location = new System.Drawing.Point(420, 390);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(124, 20);
             this.label15.TabIndex = 35;
@@ -317,7 +323,7 @@ namespace Tela_de_cadastro
             // textBox10
             // 
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(565, 414);
+            this.textBox10.Location = new System.Drawing.Point(423, 414);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(320, 22);
             this.textBox10.TabIndex = 36;
@@ -336,7 +342,7 @@ namespace Tela_de_cadastro
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox11.Location = new System.Drawing.Point(119, 465);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(766, 22);
+            this.textBox11.Size = new System.Drawing.Size(874, 22);
             this.textBox11.TabIndex = 38;
             // 
             // label17
@@ -353,7 +359,7 @@ namespace Tela_de_cadastro
             this.textBox12.Location = new System.Drawing.Point(119, 523);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(766, 81);
+            this.textBox12.Size = new System.Drawing.Size(874, 81);
             this.textBox12.TabIndex = 40;
             // 
             // label18
@@ -364,9 +370,9 @@ namespace Tela_de_cadastro
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(290, 19);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(779, 53);
+            this.label18.Size = new System.Drawing.Size(779, 85);
             this.label18.TabIndex = 44;
-            this.label18.Text = "Cadastro Funcionários";
+            this.label18.Text = "Cadastro de Funcionário";
             // 
             // label_Bvindas
             // 
@@ -381,7 +387,7 @@ namespace Tela_de_cadastro
             this.btnPesquisar.BackgroundImage = global::Tela_de_cadastro.Properties.Resources.Pesquisar;
             this.btnPesquisar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnPesquisar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnPesquisar.Location = new System.Drawing.Point(515, 623);
+            this.btnPesquisar.Location = new System.Drawing.Point(744, 628);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(126, 40);
             this.btnPesquisar.TabIndex = 46;
@@ -402,7 +408,7 @@ namespace Tela_de_cadastro
             // 
             this.btnSair.BackgroundImage = global::Tela_de_cadastro.Properties.Resources.sair;
             this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnSair.Location = new System.Drawing.Point(779, 623);
+            this.btnSair.Location = new System.Drawing.Point(881, 628);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(109, 40);
             this.btnSair.TabIndex = 42;
@@ -414,7 +420,7 @@ namespace Tela_de_cadastro
             this.btnSalvar.BackgroundImage = global::Tela_de_cadastro.Properties.Resources.Salvar1;
             this.btnSalvar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSalvar.Location = new System.Drawing.Point(647, 623);
+            this.btnSalvar.Location = new System.Drawing.Point(607, 628);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(126, 40);
             this.btnSalvar.TabIndex = 41;
@@ -422,7 +428,7 @@ namespace Tela_de_cadastro
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(830, 139);
+            this.pictureBox1.Location = new System.Drawing.Point(962, 122);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(161, 109);
             this.pictureBox1.TabIndex = 17;
@@ -430,7 +436,7 @@ namespace Tela_de_cadastro
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(700, 318);
+            this.maskedTextBox1.Location = new System.Drawing.Point(808, 318);
             this.maskedTextBox1.Mask = "00000-000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(185, 20);
@@ -449,7 +455,7 @@ namespace Tela_de_cadastro
             this.maskedTextBox4.Location = new System.Drawing.Point(536, 360);
             this.maskedTextBox4.Mask = "(00) 0000-0000";
             this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(133, 20);
+            this.maskedTextBox4.Size = new System.Drawing.Size(202, 20);
             this.maskedTextBox4.TabIndex = 49;
             // 
             // maskedTextBox5
@@ -460,11 +466,61 @@ namespace Tela_de_cadastro
             this.maskedTextBox5.Size = new System.Drawing.Size(124, 20);
             this.maskedTextBox5.TabIndex = 50;
             // 
+            // label19
+            // 
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(916, 671);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(34, 20);
+            this.label19.TabIndex = 51;
+            this.label19.Text = "Sair";
+            // 
+            // label20
+            // 
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(649, 671);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(56, 20);
+            this.label20.TabIndex = 52;
+            this.label20.Text = "Salvar";
+            // 
+            // label21
+            // 
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(753, 671);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(119, 20);
+            this.label21.TabIndex = 53;
+            this.label21.Text = "Pesquisar/Alterar";
+            this.label21.Click += new System.EventHandler(this.label21_Click);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(297, 83);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(155, 22);
+            this.textBox5.TabIndex = 54;
+            // 
+            // label22
+            // 
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(294, 108);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(158, 20);
+            this.label22.TabIndex = 55;
+            this.label22.Text = "Matrícula";
+            // 
             // Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1162, 680);
+            this.ClientSize = new System.Drawing.Size(1162, 712);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.maskedTextBox5);
             this.Controls.Add(this.maskedTextBox4);
             this.Controls.Add(this.maskedTextBox3);
@@ -508,9 +564,10 @@ namespace Tela_de_cadastro
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Ndf);
             this.Controls.Add(this.txtNomeFunc);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Cadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Home";
             this.Load += new System.EventHandler(this.Cadastro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -564,6 +621,11 @@ namespace Tela_de_cadastro
         private System.Windows.Forms.MaskedTextBox maskedTextBox3;
         private System.Windows.Forms.MaskedTextBox maskedTextBox4;
         private System.Windows.Forms.MaskedTextBox maskedTextBox5;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label22;
     }
 }
 

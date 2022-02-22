@@ -59,5 +59,10 @@ namespace Tela_de_cadastro
         {
             Close();
         }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
