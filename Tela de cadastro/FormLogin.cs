@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Tela_de_cadastro
 {
@@ -52,6 +53,32 @@ namespace Tela_de_cadastro
         private void versãoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Versão 1.0");
+        }
+
+        private void btnTestarServidor_Click(object sender, EventArgs e)
+        {
+            string strConnection1 = "server=127.0.0.1;User Id=root;password=vertrigo";
+            //string strConnection2 = "server=127.0.0.1;User Id=root;database=curo_db;password=vertrigo";
+
+            MySqlConnection conexao = new MySqlConnection(strConnection1);
+            //conexao.ConnectionString = strConnection1;
+
+            try
+            {
+                conexao.Open();
+                lblResultadoServidor.Text = "Conectado com sucesso";
+
+            }
+            catch (Exception ex)
+            {
+                lblResultadoServidor.Text = "Erro ao conectar" + ex;
+            }
+            finally 
+            {
+                conexao.Close();
+            } 
+
+
         }
     }
 }

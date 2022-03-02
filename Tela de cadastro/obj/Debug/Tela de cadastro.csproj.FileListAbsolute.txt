@@ -10,3 +10,17 @@ C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\T
 C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela_de_cadastro.Cadastro.resources
 C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela_de_cadastro.FormLogin.resources
 C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela_de_cadastro.PesquisarFun.resources
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\MySql.Data.dll
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\Google.Protobuf.dll
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\ZstdNet.dll
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\System.Memory.dll
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\System.Buffers.dll
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\bin\Debug\MySql.Data.xml
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela de cadastro.exe.config
+C:\Users\wirioliveira\source\repos\Tela de cadastro\Tela de cadastro\obj\Debug\Tela de cadastro.csproj.CopyComplete

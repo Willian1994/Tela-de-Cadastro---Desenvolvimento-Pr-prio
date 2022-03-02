@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Tela_de_cadastro
 {
@@ -62,6 +63,42 @@ namespace Tela_de_cadastro
 
         private void label21_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            {
+                string strConnection1 = "server=127.0.0.1;User Id=root;password=vertrigo";
+                //string strConnection2 = "server=127.0.0.1;User Id=root;database=curo_db;password=vertrigo";
+
+                MySqlConnection conexao = new MySqlConnection(strConnection1);
+                //conexao.ConnectionString = strConnection1;
+
+                try
+                {
+                    conexao.Open();
+                    lblResultadoPesquisa.Text = "Conectado com sucesso";
+
+                    MySqlCommand comando = new MySqlCommand();
+
+                    comando.Connection = conexao;
+                    comando.CommandText = "CREATE DATABASE IF NOT EXISTS Base_de_dados_Colaborador";
+
+                    comando.ExecuteNonQuery();
+                    lblResultadoPesquisa.Text = "Base de dados criada com sucesso.";
+                    comando.Dispose();
+
+                }
+                catch (Exception ex)
+                {
+                    lblResultadoPesquisa.Text = "Erro ao conectar \n" + ex;
+                }
+                finally
+                {
+                    conexao.Close();
+                }
+            }
 
         }
     }

@@ -78,6 +78,7 @@ namespace Tela_de_cadastro
             this.label21 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
+            this.lblResultadoPesquisa = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -85,7 +86,7 @@ namespace Tela_de_cadastro
             // txtNomeFunc
             // 
             this.txtNomeFunc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeFunc.Location = new System.Drawing.Point(119, 145);
+            this.txtNomeFunc.Location = new System.Drawing.Point(227, 145);
             this.txtNomeFunc.Name = "txtNomeFunc";
             this.txtNomeFunc.Size = new System.Drawing.Size(711, 22);
             this.txtNomeFunc.TabIndex = 0;
@@ -425,6 +426,7 @@ namespace Tela_de_cadastro
             this.btnSalvar.Size = new System.Drawing.Size(126, 40);
             this.btnSalvar.TabIndex = 41;
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // pictureBox1
             // 
@@ -511,11 +513,20 @@ namespace Tela_de_cadastro
             this.label22.TabIndex = 55;
             this.label22.Text = "Matrícula";
             // 
+            // lblResultadoPesquisa
+            // 
+            this.lblResultadoPesquisa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoPesquisa.Location = new System.Drawing.Point(124, 611);
+            this.lblResultadoPesquisa.Name = "lblResultadoPesquisa";
+            this.lblResultadoPesquisa.Size = new System.Drawing.Size(477, 80);
+            this.lblResultadoPesquisa.TabIndex = 56;
+            // 
             // Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1162, 712);
+            this.Controls.Add(this.lblResultadoPesquisa);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label21);
@@ -626,6 +637,7 @@ namespace Tela_de_cadastro
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label lblResultadoPesquisa;
     }
 }
 

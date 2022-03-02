@@ -40,6 +40,8 @@ namespace Tela_de_cadastro
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.desenvolvedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.versãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnTestarServidor = new System.Windows.Forms.Button();
+            this.lblResultadoServidor = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,7 +66,7 @@ namespace Tela_de_cadastro
             // txtSenha
             // 
             this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.Location = new System.Drawing.Point(16, 227);
+            this.txtSenha.Location = new System.Drawing.Point(16, 202);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '*';
             this.txtSenha.Size = new System.Drawing.Size(497, 44);
@@ -74,7 +76,7 @@ namespace Tela_de_cadastro
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 187);
+            this.label2.Location = new System.Drawing.Point(14, 167);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 24);
             this.label2.TabIndex = 2;
@@ -83,9 +85,9 @@ namespace Tela_de_cadastro
             // btnCancelar
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(16, 301);
+            this.btnCancelar.Location = new System.Drawing.Point(16, 263);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(168, 56);
+            this.btnCancelar.Size = new System.Drawing.Size(147, 56);
             this.btnCancelar.TabIndex = 4;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -94,9 +96,9 @@ namespace Tela_de_cadastro
             // btnSenha
             // 
             this.btnSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSenha.Location = new System.Drawing.Point(327, 301);
+            this.btnSenha.Location = new System.Drawing.Point(361, 266);
             this.btnSenha.Name = "btnSenha";
-            this.btnSenha.Size = new System.Drawing.Size(186, 56);
+            this.btnSenha.Size = new System.Drawing.Size(152, 56);
             this.btnSenha.TabIndex = 5;
             this.btnSenha.Text = "Entrar";
             this.btnSenha.UseVisualStyleBackColor = true;
@@ -127,7 +129,7 @@ namespace Tela_de_cadastro
             this.desenvolvedorToolStripMenuItem,
             this.versãoToolStripMenuItem});
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(118, 24);
             this.sobreToolStripMenuItem.Text = "Sobre";
             // 
             // desenvolvedorToolStripMenuItem
@@ -144,12 +146,33 @@ namespace Tela_de_cadastro
             this.versãoToolStripMenuItem.Text = "Versão";
             this.versãoToolStripMenuItem.Click += new System.EventHandler(this.versãoToolStripMenuItem_Click);
             // 
+            // btnTestarServidor
+            // 
+            this.btnTestarServidor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTestarServidor.Location = new System.Drawing.Point(177, 266);
+            this.btnTestarServidor.Name = "btnTestarServidor";
+            this.btnTestarServidor.Size = new System.Drawing.Size(168, 56);
+            this.btnTestarServidor.TabIndex = 7;
+            this.btnTestarServidor.Text = "Testar servidor";
+            this.btnTestarServidor.UseVisualStyleBackColor = true;
+            this.btnTestarServidor.Click += new System.EventHandler(this.btnTestarServidor_Click);
+            // 
+            // lblResultadoServidor
+            // 
+            this.lblResultadoServidor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoServidor.Location = new System.Drawing.Point(15, 322);
+            this.lblResultadoServidor.Name = "lblResultadoServidor";
+            this.lblResultadoServidor.Size = new System.Drawing.Size(498, 46);
+            this.lblResultadoServidor.TabIndex = 8;
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(535, 377);
             this.ControlBox = false;
+            this.Controls.Add(this.lblResultadoServidor);
+            this.Controls.Add(this.btnTestarServidor);
             this.Controls.Add(this.btnSenha);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.txtSenha);
@@ -180,5 +203,7 @@ namespace Tela_de_cadastro
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem desenvolvedorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem versãoToolStripMenuItem;
+        private System.Windows.Forms.Button btnTestarServidor;
+        private System.Windows.Forms.Label lblResultadoServidor;
     }
 }
